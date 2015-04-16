@@ -39,6 +39,7 @@
 - (void)setValueInDollars:(NSInteger)v;
 - (NSInteger)valueInDollars;
 
+- (void)setDateCreated:(NSDate *)date;
 - (NSDate *)dateCreated;
 
 - (NSString *)description;

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRDetailViewController">
             <connections>
+                <outlet property="changeDate" destination="RHb-hl-0SI" id="uAA-3N-n8m"/>
                 <outlet property="dateLabel" destination="qp1-JW-Pux" id="PqK-9p-1Rr"/>
                 <outlet property="nameField" destination="Ire-yX-Pe7" id="gqd-Ll-bn0"/>
                 <outlet property="serialNumberField" destination="Nsb-el-aP9" id="Ab9-PT-3fL"/>
@@ -66,6 +67,17 @@
                         <outlet property="delegate" destination="-1" id="5MH-hX-kz3"/>
                     </connections>
                 </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHb-hl-0SI">
+                    <rect key="frame" x="97" y="218" width="133" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.64000000000000001" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Change Date">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="changeDateHandler:" destination="-1" eventType="touchUpInside" id="9Vs-hR-txA"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>

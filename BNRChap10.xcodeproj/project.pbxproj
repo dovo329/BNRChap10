@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5629B341AE003A900BE9CC6 /* BNRDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5629B331AE003A900BE9CC6 /* BNRDateViewController.m */; };
 		A568B10A1ADF50C7007668FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B1091ADF50C7007668FA /* main.m */; };
 		A568B10D1ADF50C7007668FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B10C1ADF50C7007668FA /* AppDelegate.m */; };
 		A568B1131ADF50C7007668FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568B1111ADF50C7007668FA /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5629B321AE003A900BE9CC6 /* BNRDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDateViewController.h; sourceTree = "<group>"; };
+		A5629B331AE003A900BE9CC6 /* BNRDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDateViewController.m; sourceTree = "<group>"; };
 		A568B1041ADF50C7007668FA /* BNRChap10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNRChap10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568B1081ADF50C7007668FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A568B1091ADF50C7007668FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,15 +103,17 @@
 				A568B13E1ADF5436007668FA /* BNRDetailViewController.h */,
 				A568B13F1ADF5436007668FA /* BNRDetailViewController.m */,
 				A568B1401ADF5436007668FA /* BNRDetailViewController.xib */,
+				A5629B321AE003A900BE9CC6 /* BNRDateViewController.h */,
+				A5629B331AE003A900BE9CC6 /* BNRDateViewController.m */,
 				A568B1391ADF5258007668FA /* HeaderView.xib */,
 				A568B12D1ADF513D007668FA /* BNRContainer.m */,
 				A568B12E1ADF513D007668FA /* BNRItem.m */,
+				A568B1321ADF513D007668FA /* BNRItem.h */,
 				A568B12F1ADF513D007668FA /* BNRItemStore.m */,
 				A568B1301ADF513D007668FA /* BNRItemsViewController.m */,
-				A568B1311ADF513D007668FA /* BNRContainer.h */,
-				A568B1321ADF513D007668FA /* BNRItem.h */,
-				A568B1331ADF513D007668FA /* BNRItemStore.h */,
 				A568B1341ADF513D007668FA /* BNRItemsViewController.h */,
+				A568B1311ADF513D007668FA /* BNRContainer.h */,
+				A568B1331ADF513D007668FA /* BNRItemStore.h */,
 				A568B10B1ADF50C7007668FA /* AppDelegate.h */,
 				A568B10C1ADF50C7007668FA /* AppDelegate.m */,
 				A568B1111ADF50C7007668FA /* Main.storyboard */,
@@ -248,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A568B1381ADF513E007668FA /* BNRItemsViewController.m in Sources */,
+				A5629B341AE003A900BE9CC6 /* BNRDateViewController.m in Sources */,
 				A568B1371ADF513E007668FA /* BNRItemStore.m in Sources */,
 				A568B10D1ADF50C7007668FA /* AppDelegate.m in Sources */,
 				A568B1411ADF5436007668FA /* BNRDetailViewController.m in Sources */,
@@ -450,6 +456,7 @@
 				A568B1291ADF50C7007668FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A568B12A1ADF50C7007668FA /* Build configuration list for PBXNativeTarget "BNRChap10Tests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				A568B12C1ADF50C7007668FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

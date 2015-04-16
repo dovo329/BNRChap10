@@ -105,6 +105,11 @@
     return _valueInDollars;
 }
 
+- (void)setDateCreated:(NSDate *)date
+{
+    _dateCreated = [date copy];
+}
+
 - (NSDate *)dateCreated
 {
     return _dateCreated;

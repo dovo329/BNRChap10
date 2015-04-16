@@ -6,6 +6,7 @@
 //
 //
 
+#import "BNRDateViewController.h"
 #import "BNRDetailViewController.h"
 #import "BNRItem.h"
 
@@ -15,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *serialNumberField;
 @property (weak, nonatomic) IBOutlet UITextField *valueField;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UIButton *changeDate;
 
 
 @end
@@ -63,7 +65,8 @@
         dateFormatter.dateStyle = NSDateFormatterMediumStyle;
         dateFormatter.timeStyle = NSDateFormatterNoStyle;
     }
-    self.dateLabel.text = [dateFormatter stringFromDate:item.dateCreated];
+    NSLog(@"viewWillAppear self.item.dateCreated = %@", self.item.dateCreated);
+    self.dateLabel.text = [dateFormatter stringFromDate:self.item.dateCreated];
 }
 
 
@@ -83,6 +86,17 @@
 {
     _item = item;
     self.navigationItem.title = _item.itemName;
+}
+
+- (IBAction)changeDateHandler:(id)sender
+{
+    BNRDateViewController *dateViewController =
+    [[BNRDateViewController alloc] init];
+    
+    dateViewController.item = self.item;
+    
+    [self.navigationController pushViewController:dateViewController
+                                         animated:YES];
 }
 
 @end
