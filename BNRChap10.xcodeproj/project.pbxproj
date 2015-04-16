@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A568B10A1ADF50C7007668FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B1091ADF50C7007668FA /* main.m */; };
+		A568B10D1ADF50C7007668FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B10C1ADF50C7007668FA /* AppDelegate.m */; };
+		A568B1131ADF50C7007668FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568B1111ADF50C7007668FA /* Main.storyboard */; };
+		A568B1151ADF50C7007668FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A568B1141ADF50C7007668FA /* Images.xcassets */; };
+		A568B1181ADF50C7007668FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A568B1161ADF50C7007668FA /* LaunchScreen.xib */; };
+		A568B1241ADF50C7007668FA /* BNRChap10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B1231ADF50C7007668FA /* BNRChap10Tests.m */; };
+		A568B1351ADF513E007668FA /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B12D1ADF513D007668FA /* BNRContainer.m */; };
+		A568B1361ADF513E007668FA /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B12E1ADF513D007668FA /* BNRItem.m */; };
+		A568B1371ADF513E007668FA /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B12F1ADF513D007668FA /* BNRItemStore.m */; };
+		A568B1381ADF513E007668FA /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B1301ADF513D007668FA /* BNRItemsViewController.m */; };
+		A568B13A1ADF5258007668FA /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A568B1391ADF5258007668FA /* HeaderView.xib */; };
+		A568B1411ADF5436007668FA /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B13F1ADF5436007668FA /* BNRDetailViewController.m */; };
+		A568B1421ADF5436007668FA /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A568B1401ADF5436007668FA /* BNRDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A568B11E1ADF50C7007668FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A568B0FC1ADF50C7007668FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A568B1031ADF50C7007668FA;
+			remoteInfo = BNRChap10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A568B1041ADF50C7007668FA /* BNRChap10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNRChap10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A568B1081ADF50C7007668FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A568B1091ADF50C7007668FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A568B10B1ADF50C7007668FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A568B10C1ADF50C7007668FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A568B1121ADF50C7007668FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A568B1141ADF50C7007668FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A568B1171ADF50C7007668FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A568B11D1ADF50C7007668FA /* BNRChap10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNRChap10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A568B1221ADF50C7007668FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A568B1231ADF50C7007668FA /* BNRChap10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRChap10Tests.m; sourceTree = "<group>"; };
+		A568B12D1ADF513D007668FA /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
+		A568B12E1ADF513D007668FA /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		A568B12F1ADF513D007668FA /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		A568B1301ADF513D007668FA /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
+		A568B1311ADF513D007668FA /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		A568B1321ADF513D007668FA /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		A568B1331ADF513D007668FA /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		A568B1341ADF513D007668FA /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		A568B1391ADF5258007668FA /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		A568B13E1ADF5436007668FA /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
+		A568B13F1ADF5436007668FA /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
+		A568B1401ADF5436007668FA /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A568B1011ADF50C7007668FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A568B11A1ADF50C7007668FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A568B0FB1ADF50C7007668FA = {
+			isa = PBXGroup;
+			children = (
+				A568B1061ADF50C7007668FA /* BNRChap10 */,
+				A568B1201ADF50C7007668FA /* BNRChap10Tests */,
+				A568B1051ADF50C7007668FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A568B1051ADF50C7007668FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A568B1041ADF50C7007668FA /* BNRChap10.app */,
+				A568B11D1ADF50C7007668FA /* BNRChap10Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A568B1061ADF50C7007668FA /* BNRChap10 */ = {
+			isa = PBXGroup;
+			children = (
+				A568B13E1ADF5436007668FA /* BNRDetailViewController.h */,
+				A568B13F1ADF5436007668FA /* BNRDetailViewController.m */,
+				A568B1401ADF5436007668FA /* BNRDetailViewController.xib */,
+				A568B1391ADF5258007668FA /* HeaderView.xib */,
+				A568B12D1ADF513D007668FA /* BNRContainer.m */,
+				A568B12E1ADF513D007668FA /* BNRItem.m */,
+				A568B12F1ADF513D007668FA /* BNRItemStore.m */,
+				A568B1301ADF513D007668FA /* BNRItemsViewController.m */,
+				A568B1311ADF513D007668FA /* BNRContainer.h */,
+				A568B1321ADF513D007668FA /* BNRItem.h */,
+				A568B1331ADF513D007668FA /* BNRItemStore.h */,
+				A568B1341ADF513D007668FA /* BNRItemsViewController.h */,
+				A568B10B1ADF50C7007668FA /* AppDelegate.h */,
+				A568B10C1ADF50C7007668FA /* AppDelegate.m */,
+				A568B1111ADF50C7007668FA /* Main.storyboard */,
+				A568B1141ADF50C7007668FA /* Images.xcassets */,
+				A568B1161ADF50C7007668FA /* LaunchScreen.xib */,
+				A568B1071ADF50C7007668FA /* Supporting Files */,
+			);
+			path = BNRChap10;
+			sourceTree = "<group>";
+		};
+		A568B1071ADF50C7007668FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A568B1081ADF50C7007668FA /* Info.plist */,
+				A568B1091ADF50C7007668FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A568B1201ADF50C7007668FA /* BNRChap10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A568B1231ADF50C7007668FA /* BNRChap10Tests.m */,
+				A568B1211ADF50C7007668FA /* Supporting Files */,
+			);
+			path = BNRChap10Tests;
+			sourceTree = "<group>";
+		};
+		A568B1211ADF50C7007668FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A568B1221ADF50C7007668FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A568B1031ADF50C7007668FA /* BNRChap10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A568B1271ADF50C7007668FA /* Build configuration list for PBXNativeTarget "BNRChap10" */;
+			buildPhases = (
+				A568B1001ADF50C7007668FA /* Sources */,
+				A568B1011ADF50C7007668FA /* Frameworks */,
+				A568B1021ADF50C7007668FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNRChap10;
+			productName = BNRChap10;
+			productReference = A568B1041ADF50C7007668FA /* BNRChap10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A568B11C1ADF50C7007668FA /* BNRChap10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A568B12A1ADF50C7007668FA /* Build configuration list for PBXNativeTarget "BNRChap10Tests" */;
+			buildPhases = (
+				A568B1191ADF50C7007668FA /* Sources */,
+				A568B11A1ADF50C7007668FA /* Frameworks */,
+				A568B11B1ADF50C7007668FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A568B11F1ADF50C7007668FA /* PBXTargetDependency */,
+			);
+			name = BNRChap10Tests;
+			productName = BNRChap10Tests;
+			productReference = A568B11D1ADF50C7007668FA /* BNRChap10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A568B0FC1ADF50C7007668FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Doug;
+				TargetAttributes = {
+					A568B1031ADF50C7007668FA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A568B11C1ADF50C7007668FA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A568B1031ADF50C7007668FA;
+					};
+				};
+			};
+			buildConfigurationList = A568B0FF1ADF50C7007668FA /* Build configuration list for PBXProject "BNRChap10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A568B0FB1ADF50C7007668FA;
+			productRefGroup = A568B1051ADF50C7007668FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A568B1031ADF50C7007668FA /* BNRChap10 */,
+				A568B11C1ADF50C7007668FA /* BNRChap10Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A568B1021ADF50C7007668FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A568B1131ADF50C7007668FA /* Main.storyboard in Resources */,
+				A568B1181ADF50C7007668FA /* LaunchScreen.xib in Resources */,
+				A568B1151ADF50C7007668FA /* Images.xcassets in Resources */,
+				A568B13A1ADF5258007668FA /* HeaderView.xib in Resources */,
+				A568B1421ADF5436007668FA /* BNRDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A568B11B1ADF50C7007668FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A568B1001ADF50C7007668FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A568B1381ADF513E007668FA /* BNRItemsViewController.m in Sources */,
+				A568B1371ADF513E007668FA /* BNRItemStore.m in Sources */,
+				A568B10D1ADF50C7007668FA /* AppDelegate.m in Sources */,
+				A568B1411ADF5436007668FA /* BNRDetailViewController.m in Sources */,
+				A568B1361ADF513E007668FA /* BNRItem.m in Sources */,
+				A568B10A1ADF50C7007668FA /* main.m in Sources */,
+				A568B1351ADF513E007668FA /* BNRContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A568B1191ADF50C7007668FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A568B1241ADF50C7007668FA /* BNRChap10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A568B11F1ADF50C7007668FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A568B1031ADF50C7007668FA /* BNRChap10 */;
+			targetProxy = A568B11E1ADF50C7007668FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A568B1111ADF50C7007668FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A568B1121ADF50C7007668FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A568B1161ADF50C7007668FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A568B1171ADF50C7007668FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A568B1251ADF50C7007668FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A568B1261ADF50C7007668FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A568B1281ADF50C7007668FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BNRChap10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A568B1291ADF50C7007668FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BNRChap10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A568B12B1ADF50C7007668FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BNRChap10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BNRChap10.app/BNRChap10";
+			};
+			name = Debug;
+		};
+		A568B12C1ADF50C7007668FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BNRChap10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BNRChap10.app/BNRChap10";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A568B0FF1ADF50C7007668FA /* Build configuration list for PBXProject "BNRChap10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A568B1251ADF50C7007668FA /* Debug */,
+				A568B1261ADF50C7007668FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A568B1271ADF50C7007668FA /* Build configuration list for PBXNativeTarget "BNRChap10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A568B1281ADF50C7007668FA /* Debug */,
+				A568B1291ADF50C7007668FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A568B12A1ADF50C7007668FA /* Build configuration list for PBXNativeTarget "BNRChap10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A568B12B1ADF50C7007668FA /* Debug */,
+				A568B12C1ADF50C7007668FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A568B0FC1ADF50C7007668FA /* Project object */;
+}
