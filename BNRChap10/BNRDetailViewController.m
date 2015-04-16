@@ -30,6 +30,7 @@
     self.nameField.text = item.itemName;
     self.serialNumberField.text = item.serialNumber;
     self.valueField.text = [NSString stringWithFormat:@"%d", (int)item.valueInDollars];
+    self.valueField.keyboardType = UIKeyboardTypeNumberPad;
     
     static NSDateFormatter *dateFormatter;
     if (!dateFormatter) {
